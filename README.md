@@ -111,15 +111,20 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 - **config/** - Application configuration files
 
 ## Screenshots
-![Home Page](public/screenshots/homepage.png)
-![About Page](public/screenshots/about-page.png)
-![Services Page](public/screenshots/services-page.png)
-![Contact Page](public/screenshots/contact-page.png)
-![Navigation Bar](public/screenshots/navbar.png)
-![Footer](public/screenshots/footer.png)
-![VS Code Structure](public/screenshots/vscode-structure.png)
-![GitHub Repository](public/screenshots/github-repo.png)
-![Browser Output](public/screenshots/browser-output.png)
+![Home Page](public/screenshots/homepage.JPG)
+![About Page](public/screenshots/about-page.JPG)
+![Services Page](public/screenshots/services-page.JPG)
+![Contact Page](public/screenshots/contact-page.JPG)
+![Navigation Bar](public/screenshots/navbar.JPG)
+![Footer](public/screenshots/footer.JPG)
+![Route Definitions](public/screenshots/routes.PNG)
+![CompanyController](public/screenshots/controller.PNG)
+![Blade Layout](public/screenshots/blade-layout.PNG)
+![VS Code Structure - Part 1](public/screenshots/vscode-structure-1.PNG)
+![VS Code Structure - Part 2](public/screenshots/vscode-structure-2.PNG)
+![VS Code Structure - Part 3](public/screenshots/vscode-structure-3.PNG)
+![Browser Output](public/screenshots/browser-output.PNG)
+![GitHub Repository](public/screenshots/github-repo.PNG)
 
 ## Problems Encountered
 1. **View not found** - Missing Blade templates caused errors when views were not created properly.

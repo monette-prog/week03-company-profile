@@ -1,26 +1,26 @@
 # Company Profile Website using Laravel MVC
 
 ## Introduction
-Gumawa ako ng Company Profile Website gamit ang Laravel. Ito ay isang multi-page website na nagpapakita ng impormasyon tungkol sa isang kumpanya. Ginawa ko ito para matutunan ko kung paano gumagana ang MVC architecture sa Laravel.
+I developed a Company Profile Website using Laravel. It is a multi-page website that displays important information about a company. I created this project to better understand how Laravel's MVC architecture works in a real-world application.
 
-Ang website na ito ay may apat na pages: Home, About, Services, at Contact. Ginamit ko ang Laravel para ma-organize ang code ko gamit ang routes, controllers, at Blade templates.
+The website consists of four main pages: Home, About, Services, and Contact. I used Laravel's routing, controllers, and Blade templating to organize the code efficiently and maintain a clean structure.
 
 ## Objectives
-Sa project na ito, natutunan ko ang mga sumusunod:
-- Paano gumagana ang Laravel Request Lifecycle
-- Paano gumawa ng routes at controllers
-- Paano gumamit ng Blade templates para sa views
-- Paano i-organize ang code gamit ang MVC
-- Paano mag-push ng project sa GitHub
+Throughout this project, I was able to:
+- Understand Laravel's Request Lifecycle
+- Create and manage application routes
+- Build dynamic views using Blade templates
+- Organize code using the MVC pattern
+- Deploy a project to GitHub
 
 ## MVC Architecture
-Ang MVC ay Model-View-Controller. Ito ay isang design pattern na naghihiwalay ng code sa tatlong parts:
+MVC stands for Model-View-Controller. It is a software design pattern that separates an application into three interconnected components:
 
-- **Model** - Dito nakalagay ang data at business logic
-- **View** - Ito ang UI o design ng website
-- **Controller** - Ito ang nagpro-process ng requests at nagco-connect ng Model at View
+- **Model** – Manages the data and business logic
+- **View** – Handles the user interface and presentation
+- **Controller** – Processes user requests and coordinates between the Model and View
 
-Ginagamit ng Laravel ang MVC para maging malinis at organized ang code. Mas madali din itong i-maintain at i-debug.
+Laravel uses MVC to promote clean, organized, and maintainable code. It also allows developers to work on different parts of the application simultaneously without conflicts.
 
 ### Architecture Flow
 

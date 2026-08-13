@@ -115,7 +115,7 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 ![About Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/about-page.JPG)
 ![Services Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/services-page.JPG)
 ![Contact Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/contact-page.JPG)
-![Navbar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
+![Navigation Bar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
 ![Footer](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/footer.JPG)
 ![Routes](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/routes.PNG)
 ![Controller](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/controller.PNG)
@@ -124,7 +124,7 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 ![VS Code Structure 2](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-2.PNG)
 ![VS Code Structure 3](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-3.PNG)
 ![Browser Output](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/browser-output.PNG)
-![Github Repo](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/github-repo.PNG)
+![Github Repository](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/github-repo.PNG)
 
 ## Problems Encountered
 1. **View not found** - Missing Blade templates caused errors when views were not created properly.

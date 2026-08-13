@@ -115,16 +115,16 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 ![About Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/about-page.JPG)
 ![Services Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/services-page.JPG)
 ![Contact Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/contact-page.JPG)
-![Navigation Bar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
+![Navbar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
 ![Footer](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/footer.JPG)
-![Route Definitions](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/routes.PNG)
-![CompanyController](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/controller.PNG)
+![Routes](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/routes.PNG)
+![Controller](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/controller.PNG)
 ![Blade Layout](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/blade-layout.PNG)
-![VS Code Structure - Part 1](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-1.PNG)
-![VS Code Structure - Part 2](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-2.PNG)
-![VS Code Structure - Part 3](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-3.PNG)
+![VS Code Structure 1](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-1.PNG)
+![VS Code Structure 2](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-2.PNG)
+![VS Code Structure 3](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-3.PNG)
 ![Browser Output](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/browser-output.PNG)
-![GitHub Repository](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/github-repo.PNG)
+![Github Repo](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/github-repo.PNG)
 
 ## Problems Encountered
 1. **View not found** - Missing Blade templates caused errors when views were not created properly.

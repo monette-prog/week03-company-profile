@@ -116,7 +116,7 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 ![Services Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/services-page.JPG)
 ![Contact Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/contact-page.JPG)
 ![Navigation Bar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
-![Footer](https://github.com/monette-prog/week03-company-profile/blob/main/raw/screenshots/footer.JPG)
+![Footer](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/footer.JPG)
 ![Route Definitions](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/routes.PNG)
 ![CompanyController](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/controller.PNG)
 ![Blade Layout](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/blade-layout.PNG)

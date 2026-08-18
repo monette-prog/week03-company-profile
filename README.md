@@ -1,11 +1,11 @@
-# Company Profile Website using Laravel MVC
+1. Company Profile Website using Laravel MVC
 
-## Introduction
+2. Introduction
 I developed a Company Profile Website using Laravel. It is a multi-page website that displays important information about a company. I created this project to better understand how Laravel's MVC architecture works in a real-world application.
 
 The website consists of four main pages: Home, About, Services, and Contact. I used Laravel's routing, controllers, and Blade templating to organize the code efficiently and maintain a clean structure.
 
-## Objectives
+3. Objectives
 Throughout this project, I was able to:
 - Understand Laravel's Request Lifecycle
 - Create and manage application routes
@@ -13,7 +13,7 @@ Throughout this project, I was able to:
 - Organize code using the MVC pattern
 - Deploy a project to GitHub
 
-## MVC Architecture
+4. MVC Architecture
 MVC stands for Model-View-Controller. It is a software design pattern that separates an application into three interconnected components:
 
 - **Model** – Manages the data and business logic
@@ -47,7 +47,7 @@ The diagram above illustrates the Laravel request flow:
 4. Blade View renders the HTML response
 5. HTML Response is sent back to the Browser
 
-## Laravel Routing
+5. Laravel Routing
 Routing in Laravel defines the URLs of the application and maps them to specific controllers and methods.
 
 **Route Definitions (routes/web.php):**
@@ -62,7 +62,7 @@ Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
 
 ### Controllers
 ```markdown
-## Controllers
+6. Controllers
 Controllers handle the logic of the application. They receive requests from the routes, process them, and return the appropriate views.
 
 **CompanyController Methods:**
@@ -92,7 +92,7 @@ public function contact()
 
 ### Blade Templating
 ```markdown
-## Blade Templating Engine
+7. Blade Templating Engine
 Blade is Laravel's powerful templating engine that allows the use of dynamic content in views.
 
 **Directives Used:**
@@ -102,7 +102,7 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 
 ![Blade Layout](public/screenshots/blade-layout.png)
 
-## Laravel Folder Structure
+8. Laravel Folder Structure
 - **app/** - Contains core application logic (Models, Controllers, etc.)
 - **routes/** - Contains route definitions (web.php, api.php)
 - **resources/** - Contains views, CSS, and JavaScript files
@@ -110,33 +110,33 @@ Blade is Laravel's powerful templating engine that allows the use of dynamic con
 - **bootstrap/** - Application bootstrap and caching
 - **config/** - Application configuration files
 
-## Screenshots
-![Home Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/homepage.JPG)
-![About Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/about-page.JPG)
-![Services Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/services-page.JPG)
-![Contact Page](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/contact-page.JPG)
-![Navigation Bar](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/navbar.JPG)
-![Footer](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/footer.JPG)
-![Routes](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/routes.PNG)
-![Controller](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/controller.PNG)
-![Blade Layout](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/blade-layout.PNG)
-![VS Code Structure 1](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-1.PNG)
-![VS Code Structure 2](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-2.PNG)
-![VS Code Structure 3](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/vscode-structure-3.PNG)
-![Browser Output](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/browser-output.PNG)
-![Github Repository](https://github.com/monette-prog/week03-company-profile/raw/main/public/screenshots/github-repo.PNG)
+9. Screenshots
+![Home Page]
+![About Page]
+![Services Page]
+![Contact Page]
+![Navigation Bar]
+![Footer]
+![Routes]
+![Controller]
+![Blade Layout]
+![VS Code Structure - Part 1]
+![VS Code Structure - Part 2]
+![VS Code Structure - Part 3]
+![Browser Output]
+![Github Repository]
 
-## Problems Encountered
+10. Problems Encountered
 1. **View not found** - Missing Blade templates caused errors when views were not created properly.
 2. **Controller namespace issues** - Incorrect namespace prevented Laravel from finding the classes.
 3. **@include errors** - Using @include without the actual component file caused runtime errors.
 
-## Solutions
+11. Solutions
 1. **View not found**: Created the missing Blade view files in the correct directory.
 2. **Controller namespace issues**: Verified that the controller class had the proper namespace and was imported correctly.
 3. **@include errors**: Removed the @include directives from the master layout and embedded the code directly.
 
-## Reflection
+12. Reflection
 Before starting this project, I only had a theoretical understanding of MVC. I knew that Model stood for data, View for the user interface, and Controller for the logic, but I didn't fully grasp how they interacted in a real-world application. This project gave me the hands-on experience I needed to truly understand the concept. I now see that the Model handles the data and business rules, the View presents the data to the user, and the Controller acts as the bridge, receiving user input and coordinating the response.
 
 Through this project, I learned the importance of separation of concerns in web development. The MVC architecture allows developers to organize code logically, making it easier to maintain and scale applications. I also gained a deeper understanding of how Laravel processes requests from the route definition, to the controller, to the view, and finally returning the response to the browser.
@@ -157,8 +157,8 @@ In the future, I plan to apply these skills to larger enterprise systems. The MV
 
 Overall, this project was a great introduction to Laravel and MVC architecture. I feel more confident in my ability to build web applications using frameworks and understand how the client-server model works in practice. I am grateful for this learning experience and look forward to applying these skills in future projects and in my career as a developer.
 
-## References
-Laravel Documentation. (n.d.). Laravel - The PHP Framework for Web Artisans. Retrieved August 12, 2026, from https://laravel.com/docs/13.x/installation
-PHP Documentation. (n.d.). PHP Manual. Retrieved August 12, 2026, from https://www.php.net/docs.php
-MDN Web Docs. (n.d.). Web development references. Retrieved August 12, 2026,from https://developer.mozilla.org/en-US/ 
-Tailwind CSS. (n.d.). Tailwind CSS documentation (v2.0). Retrieved August 12, 2026, from https://v2.tailwindcss.com/docs
+13. References
+Laravel. (2026). Laravel - The PHP Framework for Web Artisans.https://laravel.com/docs/13.x/installation
+PHP Documentation Group. (2026). PHP Manual. https://www.php.net/docs.php
+MDN Web Docs. (2026). Web development references. https://developer.mozilla.org/en-US/ 
+Tailwind CSS. (2026). Tailwind CSS documentation (v2.0). https://v2.tailwindcss.com/docs

@@ -1,4 +1,4 @@
-1. Company Profile Website using Laravel MVC
+**Company Profile Website using Laravel MVC**
 
 ## 1. Project Title
 
@@ -111,8 +111,9 @@ Route::get('/about', [CompanyController::class, 'about'])->name('about');
 Route::get('/services', [CompanyController::class, 'services'])->name('services');
 Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
 
-### Screenshot
-https://public/screenshots/routes.png
+### Route Screenshot
+Pictures/screenshots/routes.png
+![Routes](public/screenshots/routes.PNG)
 
 ---
 
@@ -129,7 +130,7 @@ https://public/screenshots/routes.png
 - Supports the **MVC structure** of Laravel
 
 ### Controller Methods
-The **CompanyController** contains methods for the different pages of the website:
+> The **CompanyController** contains methods for the different pages of the website:
 
 ```php
 public function home(): View
@@ -152,8 +153,8 @@ public function contact(): View
     return view('pages.contact');
 }
 
-### Screenshot
-https://public/screenshots/controller.png
+### Controller Screenshot
+![Controller]public/screenshots/controller.PNG 
 
 
 ---
@@ -184,7 +185,7 @@ https://public/screenshots/controller.png
 3. Each page uses `@section` to fill in the content for the placeholders.
 4. Reusable parts like the navbar and footer are included using `@include`.
 
-![Blade Layout](public/screenshots/blade-layout.png)
+![Blade Layout](public/screenshots/blade-layout.PNG)
 
 ---
 
@@ -200,47 +201,47 @@ https://public/screenshots/controller.png
 
 ## 9. Screenshots
 ### Home Page
-![Home Page](public/screenshots/home.png)
+![Home Page](public/screenshots/homepage.JPG)
 ### About Page
-![About Page](public/screenshots/about.png)
+![About Page](public/screenshots/about-page.JPG)
 ### Services Page
-![Services Page](public/screenshots/services.png)
+![Services Page](public/screenshots/services-page.JPG)
 ### Contact Page
-![Contact Page](public/screenshots/contact.png)
+![Contact Page](public/screenshots/contact-page.JPG)
 ### Navigation Bar
-![Navigation Bar](public/screenshots/navbar.png)
+![Navigation Bar](public/screenshots/navbar.JPG)
 ### Footer
-![Footer](public/screenshots/footer.png)
+![Footer](public/screenshots/footer.JPG)
 ### Routes
-![Routes](public/screenshots/routes.png)
+![Routes](public/screenshots/routes.PNG)
 ### Controller
-![Controller](public/screenshots/controller.png)
+![Controller](public/screenshots/controller.PNG)
 ### Blade Layout
-![Blade Layout](public/screenshots/blade-layout.png)
+![Blade Layout](public/screenshots/blade-layout.PNG)
 ### VS Code Structure - Part 1
-![VS Code Structure - Part 1](public/screenshots/vscode-1.png)
+![VS Code Structure - Part 1](public/screenshots/vscode-structure-1.PNG)
 ### VS Code Structure - Part 2
-![VS Code Structure - Part 2](public/screenshots/vscode-2.png)
+![VS Code Structure - Part 2](public/screenshots/vscode-structure-2.PNG)
 ### VS Code Structure - Part 3
-![VS Code Structure - Part 3](public/screenshots/vscode-3.png)
+![VS Code Structure - Part 3](public/screenshots/vscode-structure-3.PNG)
 ### Browser Output
-![Browser Output](public/screenshots/browser.png)
+![Browser Output](public/screenshots/browser-output.PNG)
 ### GitHub Repository
-![GitHub Repository](public/screenshots/github-repo.png)
+![GitHub Repository](public/screenshots/github-repo.PNG)
 
 ---
 
 ## 10. Problems Encountered
-1. **View not found** – Missing **Blade templates** caused errors when views were not created properly.
-2. **Controller namespace issues** – Incorrect **namespace** prevented Laravel from finding the classes.
-3. **@include errors** – Using `@include` without the actual component file caused **runtime errors**.
+> 1. **View not found** – Missing **Blade templates** caused errors when views were not created properly.
+> 2. **Controller namespace issues** – Incorrect **namespace** prevented Laravel from finding the classes.
+> 3. **@include errors** – Using `@include` without the actual component file caused **runtime errors**.
 
 ---
 
 ## 11. Solutions
-1. **View not found** – Created the missing **Blade view** files in the correct directory.
-2. **Controller namespace issues** – Verified that the controller class had the proper **namespace** and was imported correctly.
-3. **@include errors** – Removed the `@include` directives from the master layout and embedded the code directly.
+> 1. **View not found** – Created the missing **Blade view** files in the correct directory.
+> 2. **Controller namespace issues** – Verified that the controller class had the proper **namespace** and was imported correctly.
+> 3. **@include errors** – Removed the `@include` directives from the master layout and embedded the code directly.
 
 ---
 
@@ -267,7 +268,7 @@ https://public/screenshots/controller.png
 > Overall, this project was a great introduction to **Laravel** and **MVC architecture**. I feel more confident in my ability to build web applications using frameworks and understand how the **client-server model** works in practice. I am grateful for this learning experience and look forward to applying these skills in future projects and in my career as a developer.
 
 ## 13. References
-- Laravel. (2026). *Laravel - The PHP Framework for Web Artisans*. https://laravel.com/docs/13.x/installation
-- PHP Documentation Group. (2026). *PHP Manual*. https://www.php.net/docs.php
-- MDN Web Docs. (2026). *Web development references*. https://developer.mozilla.org/en-US/
-- Tailwind CSS. (2026). *Tailwind CSS documentation (v2.0)*. https://v2.tailwindcss.com/docs
+> - Laravel. (2026). *Laravel - The PHP Framework for Web Artisans*. https://laravel.com/docs/13.x/installation
+> - PHP Documentation Group. (2026). *PHP Manual*. https://www.php.net/docs.php
+> - MDN Web Docs. (2026). *Web development references*. https://developer.mozilla.org/en-US/
+> - Tailwind CSS. (2026). *Tailwind CSS documentation (v2.0)*. https://v2.tailwindcss.com/docs

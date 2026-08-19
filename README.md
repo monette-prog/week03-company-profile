@@ -231,10 +231,10 @@ public function contact(): View
 ![Blade Layout](public/screenshots/bladelayout.PNG)
 
 ### VS Code Structure - Part 1
-![VS Code Structure - Part 1](public\screenshots\vscode-structure1.PNG)
+![VS Code Structure - Part 1](public/screenshots/vscode-structure1.PNG)
 
 ### VS Code Structure - Part 2
-![VS Code Structure - Part 2](public/screenshots/vscode-structure-2.PNG)
+![VS Code Structure - Part 2](public/screenshots/vscode-structure2.PNG)
 
 ### Browser Output
 ![Browser Output](public/screenshots/browseroutput.PNG)

@@ -2,6 +2,81 @@
 
 ## 1. Project Title
 
+**Company Profile Website**
+
+---
+
+## 2. Introduction
+
+### What is a Company Profile Website?
+> A company profile website is a website that presents important information about a company or organization. It usually contains details about the company's background, services, mission, vision, and contact information. It serves as a digital identity for businesses, making it easier for potential customers to learn about them in one place.
+
+### Why Businesses Need One
+> A company profile website gives a business an online presence where potential customers can easily learn about the company and its services. It also helps establish credibility and trust, as visitors can access important company information anytime, anywhere.
+
+### Purpose of the Project
+> For this project, I built a **Company Profile Website** using Laravel. I chose this project because I wanted to apply what I've learned about Laravel's MVC architecture in a real-world setting. The website demonstrates the use of Laravel routing, controllers, Blade templates, reusable layouts, and the MVC pattern. It has four main pages: **Home**, **About**, **Services**, and **Contact**.
+>
+> Through this project, I gained a deeper understanding of how Laravel processes requests, how routes connect to controllers, and how Blade views render dynamic content. This experience helped me appreciate the importance of clean code organization and separation of concerns in web development.
+
+---
+
+## 3. Objectives
+
+Throughout this project, I was able to:
+
+1. **Understand Laravel's Request Lifecycle** – I learned how a request travels from the browser, through the routes, to the controller, and finally to the view.
+2. **Create and Manage Application Routes** – I defined routes in `web.php` for the Home, About, Services, and Contact pages.
+3. **Build Dynamic Views Using Blade Templates** – I used Blade templating to create reusable layouts and dynamic content.
+4. **Organize Code Using the MVC Pattern** – I applied the Model-View-Controller architecture to separate logic, presentation, and data handling.
+5. **Implement Reusable Layouts** – I used `@extends`, `@section`, and `@yield` to create a master layout and avoid code duplication.
+6. **Deploy a Project to GitHub** – I pushed my project to GitHub with proper commit messages and documentation.
+
+---
+
+## 4. MVC Architecture
+
+### What is MVC?
+> MVC stands for **Model-View-Controller**. It is a software architecture pattern that separates an application into three main parts: the **Model**, **View**, and **Controller**.
+
+- **Model** – Handles data and communication with the database.
+- **View** – Responsible for what the user sees on the website. In this project, Blade templates are used for the views.
+- **Controller** – Handles the application logic and connects the user's request to the appropriate view.
+
+### Why Laravel Uses MVC
+> Laravel uses MVC because it helps organize an application into separate responsibilities. Instead of putting all the code in one place, different parts of the application have their own purpose. For example:
+>
+> - The **routes** receive the request.
+> - The **controller** determines which page should be displayed.
+> - The **Blade view** is responsible for displaying the page to the user.
+>
+> This structure makes the code cleaner, easier to understand, and more maintainable.
+
+### Advantages of MVC
+Some advantages of MVC are:
+
+- Better organization of the project
+- Separation of different responsibilities
+- Easier maintenance of code
+- Reusable components and views
+- Easier debugging
+- Makes larger applications easier to manage
+
+### Laravel Request Flow
+
+
+
+
+
+
+
+
+
+
+# Company Profile Website using Laravel MVC
+
+## 1. Project Title
+
 Company profile Website
 
 ---

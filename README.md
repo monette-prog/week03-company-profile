@@ -95,24 +95,23 @@ The diagram above illustrates the Laravel request flow:
 ## 5. Laravel Routing
 
 ### What is Routing?
-> **Laravel Routing** is responsible for determining which part of the application should handle a user's request. In this project, routes are defined in the `routes/web.php` file and are connected to specific methods inside the `CompanyController`. The project uses GET requests for displaying the different pages of the company profile website.
-
-### Named Routes
-> **Named routes** are used so that the application can refer to routes using names instead of directly writing their URLs. This makes the application easier to maintain when routes are changed.
-
-### GET Requests
-> The **GET method** is used when the user requests a page from the website. For example, when the user visits /about, Laravel finds the corresponding route and calls the about() method of the CompanyController.
+> **Laravel Routing** is responsible for determining which part of the application should handle a user's request. In this project, routes are defined in the `routes/web.php` file and are connected to specific methods inside the `CompanyController`. The project uses **GET requests** for displaying the different pages of the company profile website.
 
 ### Route Definitions
-
 ```php
 Route::get('/', [CompanyController::class, 'home'])->name('home');
 Route::get('/about', [CompanyController::class, 'about'])->name('about');
 Route::get('/services', [CompanyController::class, 'services'])->name('services');
 Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
+```
+
+### Named Routes
+> **Named routes** are used so that the application can refer to routes using names instead of directly writing their URLs. This makes the application easier to maintain when routes are changed.
+
+### GET Requests
+> The **GET method** is used when the user requests a page from the website. For example, when the user visits `/about`, Laravel finds the corresponding route and calls the `about()` method of the `CompanyController`.
 
 ### Route Screenshot
-Pictures/screenshots/routes.png
 ![Routes](public/screenshots/routes.PNG)
 
 ---
@@ -130,7 +129,7 @@ Pictures/screenshots/routes.png
 - Supports the **MVC structure** of Laravel
 
 ### Controller Methods
-> The **CompanyController** contains methods for the different pages of the website:
+The **CompanyController** contains methods for the different pages of the website:
 
 ```php
 public function home(): View
@@ -152,10 +151,10 @@ public function contact(): View
 {
     return view('pages.contact');
 }
+```
 
 ### Controller Screenshot
-![Controller]public/screenshots/controller.PNG 
-
+![Controller](public/screenshots/controller.PNG)
 
 ---
 
@@ -185,47 +184,64 @@ public function contact(): View
 3. Each page uses `@section` to fill in the content for the placeholders.
 4. Reusable parts like the navbar and footer are included using `@include`.
 
+### Blade Layout Screenshot
 ![Blade Layout](public/screenshots/blade-layout.PNG)
 
 ---
 
 ## 8. Laravel Folder Structure
-- **`app/`** - Contains core application logic (**Models**, **Controllers**, etc.)
-- **`routes/`** - Contains route definitions (`web.php`, `api.php`)
-- **`resources/`** - Contains views, CSS, and JavaScript files
-- **`public/`** - Publicly accessible files (images, CSS, JavaScript)
-- **`bootstrap/`** - Application bootstrap and caching
-- **`config/`** - Application configuration files
+| Folder | Description |
+|--------|-------------|
+| `app/` | Contains core application logic (**Models**, **Controllers**, etc.) |
+| `routes/` | Contains route definitions (`web.php`, `api.php`) |
+| `resources/` | Contains views, CSS, and JavaScript files |
+| `public/` | Publicly accessible files (images, CSS, JavaScript) |
+| `bootstrap/` | Application bootstrap and caching |
+| `config/` | Application configuration files |
 
 ---
 
 ## 9. Screenshots
+
 ### Home Page
 ![Home Page](public/screenshots/homepage.JPG)
+
 ### About Page
 ![About Page](public/screenshots/about-page.JPG)
+
 ### Services Page
 ![Services Page](public/screenshots/services-page.JPG)
+
 ### Contact Page
 ![Contact Page](public/screenshots/contact-page.JPG)
+
 ### Navigation Bar
 ![Navigation Bar](public/screenshots/navbar.JPG)
+
 ### Footer
 ![Footer](public/screenshots/footer.JPG)
+
 ### Routes
 ![Routes](public/screenshots/routes.PNG)
+
 ### Controller
 ![Controller](public/screenshots/controller.PNG)
+
 ### Blade Layout
 ![Blade Layout](public/screenshots/blade-layout.PNG)
+
 ### VS Code Structure - Part 1
 ![VS Code Structure - Part 1](public/screenshots/vscode-structure-1.PNG)
+
 ### VS Code Structure - Part 2
 ![VS Code Structure - Part 2](public/screenshots/vscode-structure-2.PNG)
+
 ### VS Code Structure - Part 3
 ![VS Code Structure - Part 3](public/screenshots/vscode-structure-3.PNG)
+
 ### Browser Output
 ![Browser Output](public/screenshots/browser-output.PNG)
+
 ### GitHub Repository
 ![GitHub Repository](public/screenshots/github-repo.PNG)
 

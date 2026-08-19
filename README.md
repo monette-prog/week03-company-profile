@@ -154,7 +154,7 @@ public function contact(): View
 ```
 
 ### Controller Screenshot
-![Controller](public/screenshots/controller.PNG)
+![Controller](public/screenshots/companycontroller.PNG)
 
 ---
 
@@ -185,7 +185,7 @@ public function contact(): View
 4. Reusable parts like the navbar and footer are included using `@include`.
 
 ### Blade Layout Screenshot
-![Blade Layout](public/screenshots/blade-layout.PNG)
+![Blade Layout](public/screenshots/bladelayout.PNG)
 
 ---
 
@@ -204,46 +204,43 @@ public function contact(): View
 ## 9. Screenshots
 
 ### Home Page
-![Home Page](public/screenshots/homepage.JPG)
+![Home Page](public/screenshots/homepage.PNG)
 
 ### About Page
-![About Page](public/screenshots/about-page.JPG)
+![About Page](public/screenshots/aboutpage.PNG)
 
 ### Services Page
-![Services Page](public/screenshots/services-page.JPG)
+![Services Page](public/screenshots/services.PNG)
 
 ### Contact Page
-![Contact Page](public/screenshots/contact-page.JPG)
+![Contact Page](public/screenshots/contactpage.PNG)
 
 ### Navigation Bar
-![Navigation Bar](public/screenshots/navbar.JPG)
+![Navigation Bar](public/screenshots/navbar.PNG)
 
 ### Footer
-![Footer](public/screenshots/footer.JPG)
+![Footer](public/screenshots/footer.PNG)
 
 ### Routes
 ![Routes](public/screenshots/routes.PNG)
 
 ### Controller
-![Controller](public/screenshots/controller.PNG)
+![Controller](public/screenshots/companycontroller.PNG)
 
 ### Blade Layout
-![Blade Layout](public/screenshots/blade-layout.PNG)
+![Blade Layout](public/screenshots/bladelayout.PNG)
 
 ### VS Code Structure - Part 1
-![VS Code Structure - Part 1](public/screenshots/vscode-structure-1.PNG)
+![VS Code Structure - Part 1](public\screenshots\vscode-structure1.PNG)
 
 ### VS Code Structure - Part 2
 ![VS Code Structure - Part 2](public/screenshots/vscode-structure-2.PNG)
 
-### VS Code Structure - Part 3
-![VS Code Structure - Part 3](public/screenshots/vscode-structure-3.PNG)
-
 ### Browser Output
-![Browser Output](public/screenshots/browser-output.PNG)
+![Browser Output](public/screenshots/browseroutput.PNG)
 
 ### GitHub Repository
-![GitHub Repository](public/screenshots/github-repo.PNG)
+![GitHub Repository](public/screenshots/github-repository.PNG)
 
 ---
 
